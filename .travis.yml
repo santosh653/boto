@@ -8,31 +8,78 @@ matrix:
     - os: linux
       dist: trusty
       python: "pypy"
+      arch: ppc64le
     - os: linux
       dist: trusty
       python: "2.6"
+      arch: ppc64le
     - os: linux
       dist: trusty
       python: "3.3"
+      arch: ppc64le
     - os: linux
       dist: trusty
       python: "3.4"
+      arch: ppc64le
     # Xenial Tests
     - os: linux
       dist: xenial
       python: "2.7"
+      arch: ppc64le
     - os: linux
       dist: xenial
       python: "3.5"
+      arch: ppc64le
     - os: linux
       dist: xenial
       python: "3.6"
+      arch: ppc64le
     - os: linux
       dist: xenial
       python: "3.7"
+      arch: ppc64le
     - os: linux
       dist: xenial
       python: "pypy3.5"
+      arch: ppc64le
+      
+    - os: linux
+      dist: trusty
+      python: "pypy"
+      arch: amd64
+    - os: linux
+      dist: trusty
+      python: "2.6"
+      arch: amd64
+    - os: linux
+      dist: trusty
+      python: "3.3"
+      arch: amd64
+    - os: linux
+      dist: trusty
+      python: "3.4"
+      arch: amd64
+    # Xenial Tests
+    - os: linux
+      dist: xenial
+      python: "2.7"
+      arch: amd64
+    - os: linux
+      dist: xenial
+      python: "3.5"
+      arch: amd64
+    - os: linux
+      dist: xenial
+      python: "3.6"
+      arch: amd64
+    - os: linux
+      dist: xenial
+      python: "3.7"
+      arch: amd64
+    - os: linux
+      dist: xenial
+      python: "pypy3.5"
+      arch: amd64
   allow_failures:
     - python: "3.7"
 
